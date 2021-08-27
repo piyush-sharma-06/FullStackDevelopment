@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Practical-6</title>
+        <style>
+             *{padding: 0;margin: 0;box-sizing: border-box ;}
+            #card1{
+            }
+            #container{
+                display: inline-flex;
+
+            }
+            .html{
+                width: 320px;
+                height: 410px;
+                background-color: white;
+                overflow: hidden;
+                border: 2px solid blue;
+                text-align: justify;
+                padding: 10px;
+                margin: 25px; 
+                margin-left: 40px;
+                margin-right: 10px;
+                border-radius: 4%;
+            }
+            .image{
+                margin: 10px;
+            }
+            .html img{
+                width: 100%;
+                height: 150px;
+                border-radius: 10px;
+            }
+            .html h3{
+                width: 100%;
+                text-align: center;
+            }
+            .mybutton{
+                display: block;
+                margin-top: 10px;
+                text-decoration: none;
+                color: white;
+                font-family: arial;
+                background-color: red;
+                padding: 10px 20px;
+                border-radius: 10px;
+                
+            }
+            .mybutton:hover{
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(190, 185, 185);">
+        <h1 style="color: white; padding-left: 300px;">Practical-6: Create following layout using CSS layout properties</h1>
+        <div id="container">
+            <div class="html" id="card1">
+                <div class="image">
+                    <img src="./ithtml.png" alt="">
+                </div>
+                <h3>Introduction To HTML</h3>
+                <p style="margin: 10px;"> The HyperText Markup Language, or HTML is the standard markup language for
+                    documents designed to be displayed in a web browser. It can be assisted by
+                    technologies such as Cascading Style Sheets (CSS).</p>
+                    <div class="button" style="text-align: center;">
+                        <a href="#" class="mybutton">Read More</a>
+                    </div>
+            </div>
+            <div class="html" id="card2">
+                <div class="image">
+                    <img src="./csssmall.png" alt="">
+                </div>
+                <h3>Introduction To CSS</h3>
+                <p style="margin: 10px;">CSS is short for Cascading Style Sheets, and is the preferred way for
+                    setting the look and feel of a website. Cascading Style Sheets (CSS) is a
+                    markup language responsible for how your web pages will look like.</p>
+                    <div class="button" style="text-align: center;">
+                        <a href="#" class="mybutton">Read More</a>
+                    </div>
+            </div>
+            <div class="html" id="card3">
+                <div class="image">
+                    <img src="./jquery.png" alt="">
+                </div>
+                <h3>Introduction To JavaScript</h3>
+                <p style="margin: 10px;">JavaScript is a client-side scripting language of web developed by
+                    Netscape in 1995 with the name LiveScript. JavaScript is used to build
+                    interactive websites with dynamic features and to validate form data.</p>
+                    <div class="button" style="text-align: center;">
+                        <a href="#" class="mybutton">Read More</a>
+                     </div>
+            </div>
+            <div class="html" id="card4">
+                <div class="image">
+                    <img src="./bootstrapsmall-1.jpg" alt="">
+                </div>
+                <h3>Introduction To Bootstrap</h3>
+                <p style="margin: 10px;">Bootstrap is the most popular HTML, CSS and JavaScript framework for
+                    developing a responsive and mobile friendly website.It is absolutely free
+                    to download and use. It is a front-end framework used for easier and
+                    faster web development.</p>
+                    <div class="button" style="text-align: center;">
+                    <a href="#" class="mybutton">Read More</a>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>
