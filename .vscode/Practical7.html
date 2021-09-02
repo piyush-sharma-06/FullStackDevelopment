@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar with CSS</title>
+    <link rel="stylesheet" href="Practical7.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+</head>
+<style>
+</style>
+<body>
+    <div class="menu">
+        <ul>
+            <li class="active">
+                <a href="#"><i class="fa fa-home"></i>Home</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-user"></i>About</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-server"></i>Services</a>
+                <div class="dropdown1">
+                    <ul>
+                        <li><a href="#">Recuitment</a></li>
+                        <li><a href="#">Developement</a></li>
+                        <li><a href="#">Training</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-graduation-cap"></i>Training</a>
+                <div class="dropdown2">
+                    <ul>
+                        <li><a href="#">Front-End Development</a></li>
+                        <li><a href="#">Back-End Development</a></li>
+                        <li class="select"><a href="#">Native Development <i class= "fa fa-plus-square-o"></i></a>
+                            <div class="dropdown3">
+                                <ul>
+                                    <li><a href="#">React Technology</a></li>
+                                    <li><a href="#">Flutter Technology</a></li>
+                                    <li><a href="#">Ionic Technology</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-users"></i>Blog</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-phone-square"></i>Contact</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
