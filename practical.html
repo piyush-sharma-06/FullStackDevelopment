@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <title>Template-32</title>
+    <style>
+        *{padding: 0;margin: 0;box-sizing: border-box;}
+            .menu{
+                width: 100
+                5;
+                background-color: black;
+                text-align: center;
+                display: flex;
+            }
+            .heading h1{
+                color: white;
+                margin-left: 150px;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .menu ul {
+                display: inline-flex;
+            }
+            .menu ul li {
+                color: white;
+                list-style: none;
+                margin-left: 50%;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .menu ul li a{
+                text-decoration: none;
+                color: white;
+            }
+            .menu ul li{
+                width: 100px;
+                margin: 20px;
+                padding: 15px;
+                border-radius: 50px;
+   
+}
+            #first{
+                background-color: green;
+            }
+            .rightsection{
+                width: 50%;
+                height: fit-content;
+            }
+            .heading h1{
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+            .under{
+                margin-top: 40px;
+                display: flex;
+                margin-left: 50px;
+            }
+            .under p{
+                font-size: 18px;
+                margin-top: 20px;
+                color: gray;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .under i{
+                font-size: 40px;
+                margin-right: 20px;
+                color: rgb(8, 145, 81);
+                
+            }
+            .dropdown{
+                display: flex;
+            }
+            .dropdown i{
+                margin-top: 2px;
+                margin-left: 5px;
+            }
+            .dropdown1{
+    display: none;
+}
+.menu ul li:hover .dropdown1{
+    display: block;
+    position: absolute;
+    background-color: rgb(56, 56, 56);
+    margin-top: 15px;
+    margin-left: -30px;
+}
+.menu ul li:hover .dropdown1 ul
+{
+    display: block;
+}
+    .section{
+        display: flex;
+    }
+    .image img{
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 100vh;
+        height: 80vh;
+    }
+            
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div class="heading">
+        <h1>KnightOne</h1>
+        </div>
+        <ul>
+                
+            <li class="active">
+                <a href="#">Home</a>
+            </li>
+            <li class="active">
+                <a href="#">About</a>
+            </li>
+            <li class="active">
+                <a href="#">Service</a>
+            </li>
+            <li class="active">
+                <a href="#">Portfolio</a>
+            </li>
+            <li class="active">
+                <a href="#">Pricing</a>
+            </li>
+            <li class="active">
+                <div class="dropdown">
+                <a href="#">DropDown</a>
+                <i class="fa fa-angle-down"></i>
+                <div class="dropdown1">
+                    <ul>
+                        <li><a href="#">Recuitment</a></li>
+                        <li><a href="#">Developement</a></li>
+                        <li><a href="#">Training</a></li>
+                    </ul>
+                </div>
+                </div>
+            </li>
+            <li class="active">
+                <a href="#">Contact</a>
+            </li>
+            
+            <li class="active" id="first">
+                <a href="#">GetStarted</a>
+            </li>
+        </ul>
+    </div>
+    <div class="section">
+    <div class="rightsection">
+        <div class="upper">
+            <div class="under">
+                <i class="fa fa-file-text-o"></i>
+                <div>
+                <h2>Est Labour ad</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias debitis exercitationem temporibus perferendis quos non. Fugit dolor exercitationem doloremque laborum.</p>
+            </div>
+            </div>
+            <div class="under">
+                <i class="fa fa-cube"></i>
+                <div>
+                <h2>Harum esse qui</h2>
+                <p>Lorem ipsum dolor sgiat, vitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in cupiditate impedit veritatis, aperiam sapiente delectus! Accusamus sequi quas hic.</p>
+            </div>
+            </div>
+            <div class="under">
+                <i class="fa fa-image"></i>
+                <div>
+                <h2>Aut occaecati</h2>
+                <p>Lorem ipsum doloiat, vitae.ipisicing elit. Quasi in cupiditate impedit veritatis, aperiam sapiente delectus! Accusamus sequi quas hic.</p>
+            </div>
+            </div>
+            <div class="under">
+                <i class="fa fa-shield"></i>
+                <div>
+                <h2>Beatae veritatis</h2>
+                <p>Lorem ipitae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi in cupiditate impedit veritatis, aperiam sapiente delectus! Accusamus sequi quas hic.</p>
+            </div>
+            </div>
+           
+            </div>
+    </div>
+    <div class="image">
+        <img src="./assets/desktoptyping.png" alt="">
+
+    </div>
+    </div>
+</body>
+</html>
